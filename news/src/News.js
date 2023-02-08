@@ -1,5 +1,5 @@
 const News = () => {
-    return 1
+    return 2
 }
 
 export default News
