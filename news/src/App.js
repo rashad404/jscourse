@@ -1,24 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import News from './News';
+import News from './News'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         <News/>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <News ad="Təxliyə avtobusu tələbələrin bir qismini Türkiyədən Bakıya çatdırdı" text="Türkiyədən Azərbaycan vətəndaşlarını təxliyə edən avtobus səhər saatlarında Bakı Beynəlxalq Avtovağzalına çatıb.
+
+Oxu.Az xəbər verir ki, 10-TB-307 dövlət nömrə nişanlı avtobusunda 40 azərbaycanlı tələbə Vətənə qayıdıb."/>
+
     </div>
   );
 }
