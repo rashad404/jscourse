@@ -7,7 +7,7 @@ const News = (props) => {
     return (
         <div style={style}>
             <h1>{props.ad}</h1>
-            <h3>{props.text}</h3>qayıdıb
+            <h3>{props.text}</h3>
         </div>
     )
 }
